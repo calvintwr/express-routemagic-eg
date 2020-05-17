@@ -7,7 +7,7 @@
     },
     "dependencies": {
         "express": "^4.16.3",
-        "express-routemagic": "^0.1.0"
+        "express-routemagic": "^0.2.0"
     },
     "license": "MIT"
 }
