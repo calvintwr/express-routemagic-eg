@@ -8,13 +8,12 @@ const magic = require('express-routemagic')
 magic.use(app, __dirname)
 
 //More options
-/*
-magic.use(app,  __dirname, {
-    printRoutes: true,
-    routeFolder: 'routes',
-    ignoreSuffix: ['_bak'],
-    allowSameName: true,
-    debug: function(msg) { console.log('\x1b[36m%s\x1b[0m', `From Magic: ${msg}`); } // outputs cyan console.log
-})
-*/
+
+// magic.use(app,  __dirname, {
+//     printRoutes: true,
+//     routeFolder: 'routes',
+//     ignoreSuffix: ['_bak'],
+//     allowSameName: true,
+//     debug: function(msg) { console.log('\x1b[36m%s\x1b[0m', `From Magic: ${msg}`); } // outputs cyan console.log
+// })
 module.exports = app
