@@ -23,13 +23,13 @@ This is the most basic way to use Magic:
 
 ```js
 const magic = require('express-routemagic')
-magic.use(app, __dirname) // this assumes that your routing files are in `routes`, relative to where you invoke this.
+magic.use(app) // this assumes that your routing files are in `routes`, relative to where you invoke this.
 ```
 
 If your files are not in a default `routes` folder, then do this:
 ```js
 const magic = require('express-routemagic')
-magic.use(app, __dirname, '[your route directory]') // 'folder' is same as './folder'
+magic.use(app, '[your route directory]') // 'folder' is same as './folder'
 ```
 
 ## Installation
@@ -38,7 +38,7 @@ Go to [Route Magic Github](https://github.com/calvintwr/express-routemagic) to r
 
 Or install with:
 ```
-npm install express-routemagic
+npm i express-routemagic -S
 ```
 
 ### License
